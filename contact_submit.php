@@ -54,13 +54,13 @@ $result = $conn->query($sql);
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
-            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            background: linear-gradient(to right,rgb(49, 44, 43),rgb(23, 160, 91));
             background-attachment: fixed;
             color: #333;
         }
 
         .navbar {
-            background: linear-gradient(45deg, #ff416c, #ff4b2b);
+            background: linear-gradient(45deg,rgb(34, 112, 41),rgb(63, 26, 65));
         }
 
         .hero-section {
@@ -73,7 +73,7 @@ $result = $conn->query($sql);
             text-align: center;
             font-size: 28px;
             font-weight: bold;
-            text-shadow: 2px 2px 10px rgba(0,0,0,0.6);
+            text-shadow: 2px 2px 10px rgba(63, 57, 57, 0.6);
             position: relative;
         }
 
@@ -81,7 +81,7 @@ $result = $conn->query($sql);
             content: "";
             position: absolute;
             top: 0; left: 0; width: 100%; height: 100%;
-            background: rgba(0, 0, 0, 0.4); /* Dark overlay */
+            background: rgba(59, 87, 53, 0.4); /* Dark overlay */
         }
 
         .container {

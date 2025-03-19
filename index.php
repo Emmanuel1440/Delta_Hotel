@@ -1,55 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
 
-    <title>Delta</title>
+  <title>Delta</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-villa-agency.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/animate.css">
-    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/css/templatemo-villa-agency.css">
+  <link rel="stylesheet" href="assets/css/owl.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 
-    <style>
-  body {
-    background-color: #E8F5E9; /* Honeydew Green */
-    color: #839788; /* Sage Green */
-  }
+  <style>
+    body {
+      background-color: #E8F5E9;
+      /* Honeydew Green */
+      color: #839788;
+      /* Sage Green */
+    }
 
-  .header-area, .sub-header, .footer-no-gap {
-    background-color: #A7D7C5; /* Mint Green */
-  }
+    .header-area,
+    .sub-header,
+    .footer-no-gap {
+      background-color: #A7D7C5;
+      /* Mint Green */
+    }
 
-  a {
-    color: #4F6F52; /* Matcha Green */
-    text-decoration: none;
-  }
+    a {
+      color: #4F6F52;
+      /* Matcha Green */
+      text-decoration: none;
+    }
 
-  a:hover {
-    color: #839788; /* Sage Green */
-  }
+    a:hover {
+      color: #839788;
+      /* Sage Green */
+    }
 
-  .btn-primary {
-    background-color: #4F6F52; /* Matcha Green */
-    color: white;
-    border: none;
-  }
+    .btn-primary {
+      background-color: #4F6F52;
+      /* Matcha Green */
+      color: white;
+      border: none;
+    }
 
-  .btn-primary:hover {
-    background-color: #839788; /* Sage Green */
-  }
-</style>
-  </head>
+    .btn-primary:hover {
+      background-color: #839788;
+      /* Sage Green */
+    }
+  </style>
+
+</head>
 
 <body>
 
@@ -90,29 +101,31 @@
   <!-- ***** Header Area Start ***** -->
   <header class="header-area header-sticky">
     <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <nav class="main-nav">
-                    <!-- ***** Logo Start ***** -->
-                    <a href="index.html" class="logo">
-                        <h1>Delta</h1>
-                    </a>
-                    <!-- ***** Logo End ***** -->
-                    <!-- ***** Menu Start ***** -->
-                    <ul class="nav">
-                      <li><a href="index.php" class="active">Home</a></li>
-                      <li><a href="properties.php">Properties</a></li>
-                      <li><a href="property-details.php">Property Details</a></li>
-                      <li><a href="contact.php">Contact Us</a></li>
-                      <li><a href="#"><i class="fa fa-calendar"></i> Schedule a visit</a></li>
-                  </ul>   
-                    <a class='menu-trigger'>
-                        <span>Menu</span>
-                    </a>
-                    <!-- ***** Menu End ***** -->
-                </nav>
-            </div>
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+              <h1>Delta</h1>
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li><a href="index.php" class="active">Home</a></li>
+              <li><a href="properties.php">Properties</a></li>
+              <li><a href="property-details.php">Property Details</a></li>
+              <li><a href="contact.php">Contact Us</a></li>
+              <li>
+                <a href="booking.php"><i class="fa fa-calendar"></i> Book Here</a>
+              </li>
+            </ul>
+            <a class='menu-trigger'>
+              <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
         </div>
+      </div>
     </div>
   </header>
   <!-- ***** Header Area End ***** -->
@@ -146,63 +159,73 @@
         <div class="col-lg-4">
           <div class="left-image">
             <img src="assets/images/featured.jpg" alt="">
-            <a href="property-details.php"><img src="assets/images/featured-icon.png" alt="" style="max-width: 60px; padding: 0px;"></a>
+            <a href="property-details.php"><img src="assets/images/featured-icon.png" alt=""
+                style="max-width: 60px; padding: 0px;"></a>
           </div>
         </div>
         <div class="col-lg-5">
           <div class="section-heading">
             <h6>| Featured</h6>
-            <h2>Best Appartment &amp; Sea view</h2>
+            <h2>Best Appartment & Sea view</h2>
           </div>
           <div class="accordion" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                   Best useful links ?
                 </button>
               </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                Get <strong>the best hotel</strong>We are glad to have you <a href="https://www.google.com/search?q=best+free+css+templates" target="_blank">best hotel in town</a> Your comfort is our priority!!.</div>
+                  Get <strong>the best hotel</strong>We are glad to have you <a
+                      href="https://www.google.com/search?q=best+free+css+templates" target="_blank">best hotel in
+                      town</a> Your comfort is our priority!!.</div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                   How does this work ?
                 </button>
               </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                   <strong>1️⃣ What makes Delta Hotel special?</strong>
+                  <strong>1️⃣ What makes Delta Hotel special?</strong>
                   ✅ Prime location, luxury stays, and world-class services.<br>
-                
-                  
+
+
                   3️⃣ What facilities can I enjoy?
                   💆‍♂️ Spa, 🏊 swimming pools, 🏋️ fitness center, 🍽️ fine dining, and more!<br>
-                  
+
                   4️⃣ Is it safe and hygienic?
-                  🛡️ High cleanliness and 24/7 security for a worry-free stay.<br> <code> 2️⃣ What types of rooms are available?</code>
-                    🏨 Elegant rooms, penthouses, and villas with modern amenities.adipiscing .
+                  🛡️ High cleanliness and 24/7 security for a worry-free stay.<br>
+                  <code> 2️⃣ What types of rooms are available?</code>
+                  🏨 Elegant rooms, penthouses, and villas with modern amenities.adipiscing .
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                   Why is Delta Hotel the best ?
                 </button>
               </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   ✅ Prime Location – Near <strong></strong>top attractions</strong> & business hubs<br>
                   ✅ Luxury Stays – Elegant rooms, villas & penthouses<br>
                   ✅ Gourmet Dining – Fine dining, rooftop bars & 24/7 service<br>
-                  
-                  
+
+
                   ✅ Safe & Secure – High hygiene & security standards<br>
                   ✅ Exclusive Offers – Competitive pricing & loyalty rewards<br>
-            <code>✅ Personalized Service – 24/7 concierge & valet parking</code> <br>
+                  <code>✅ Personalized Service – 24/7 concierge & valet parking</code> <br>
                   ✅ Top-Tier Amenities – Spa, pools, gym & exclusive lounges.<br>
                 </div>
               </div>
@@ -270,7 +293,7 @@
               <div class="col-lg-4">
                 <div class="counter">
                   <h2 class="timer count-title count-number" data-to="34" data-speed="1000"></h2>
-                   <p class="count-text ">Buildings<br>Finished Now</p>
+                  <p class="count-text ">Buildings<br>Finished Now</p>
                 </div>
               </div>
               <div class="col-lg-4">
@@ -307,18 +330,23 @@
               <div class="nav-wrapper ">
                 <ul class="nav nav-tabs" role="tablist">
                   <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="appartment-tab" data-bs-toggle="tab" data-bs-target="#appartment" type="button" role="tab" aria-controls="appartment" aria-selected="true">Appartment</button>
+                    <button class="nav-link active" id="appartment-tab" data-bs-toggle="tab"
+                      data-bs-target="#appartment" type="button" role="tab" aria-controls="appartment"
+                      aria-selected="true">Appartment</button>
                   </li>
                   <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="villa-tab" data-bs-toggle="tab" data-bs-target="#villa" type="button" role="tab" aria-controls="villa" aria-selected="false">Villa House</button>
+                    <button class="nav-link" id="villa-tab" data-bs-toggle="tab" data-bs-target="#villa" type="button"
+                      role="tab" aria-controls="villa" aria-selected="false">Villa House</button>
                   </li>
                   <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="penthouse-tab" data-bs-toggle="tab" data-bs-target="#penthouse" type="button" role="tab" aria-controls="penthouse" aria-selected="false">Penthouse</button>
+                    <button class="nav-link" id="penthouse-tab" data-bs-toggle="tab" data-bs-target="#penthouse"
+                      type="button" role="tab" aria-controls="penthouse" aria-selected="false">Penthouse</button>
                   </li>
                 </ul>
-              </div>              
+              </div>
               <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="appartment" role="tabpanel" aria-labelledby="appartment-tab">
+                <div class="tab-pane fade show active" id="appartment" role="tabpanel"
+                  aria-labelledby="appartment-tab">
                   <div class="row">
                     <div class="col-lg-3">
                       <div class="info-table">
@@ -337,12 +365,13 @@
                     <div class="col-lg-3">
                       <h4>Extra Info About Property</h4>
                       <p>
-                        Discover an exquisite retreat at our luxurious property, offering a perfect balance 
-                        of modern elegance and timeless comfort. Whether you're seeking relaxation or adventure, 
+                        Discover an exquisite retreat at our luxurious property, offering a perfect balance
+                        of modern elegance and timeless comfort. Whether you're seeking relaxation or adventure,
                         this property is designed to cater to all your needs.
-                    
-                    
-                      <br><ul>
+
+
+                        <br>
+                      <ul>
                         <li>Expansive landscaped gardens and walking trails</li>
                         <li>State-of-the-art fitness center and wellness spa</li>
                         <li>Multiple swimming pools with breathtaking views</li>
@@ -350,7 +379,8 @@
                         <li>Fully furnished suites with premium amenities</li>
                         <li>High-speed Wi-Fi and smart home automation</li>
                         <li>24/7 security and concierge services</li>
-                    </ul><br></p>
+                      </ul><br>
+                      </p>
                       <div class="icon-button">
                         <a href="property-details.php"><i class="fa fa-calendar"></i> Schedule a visit</a>
                       </div>
@@ -376,12 +406,12 @@
                     <div class="col-lg-3">
                       <h4>Detail Info About Villa</h4>
                       <p>
-                        Escape into a world of elegance and tranquility with our luxurious villa, 
-                        designed to offer the perfect blend of comfort and sophistication. Nestled 
-                        in a serene location, the villa provides an exclusive retreat with spacious 
+                        Escape into a world of elegance and tranquility with our luxurious villa,
+                        designed to offer the perfect blend of comfort and sophistication. Nestled
+                        in a serene location, the villa provides an exclusive retreat with spacious
                         interiors and top-tier amenities.
-                    </p>
-                    <ul>
+                      </p>
+                      <ul>
                         <li>Private garden and outdoor lounge area</li>
                         <li>Expansive living and dining spaces with modern decor</li>
                         <li>Three elegantly designed bedrooms with king-size beds</li>
@@ -389,7 +419,8 @@
                         <li>Private swimming pool and sunbathing deck</li>
                         <li>24/7 personalized concierge service</li>
                         <li>Luxurious en-suite bathrooms with premium toiletries</li>
-                    </ul></p>
+                      </ul>
+                      </p>
                       <div class="icon-button">
                         <a href="property-details.php"><i class="fa fa-calendar"></i> Schedule a visit</a>
                       </div>
@@ -410,12 +441,12 @@
                       </div>
                     </div>
                     <div class="col-lg-6">
-                      <img src="assets/images/deal-03.jpg" alt="">
+                      <img src="assets/images/new apartment1.jpg" alt="">
                     </div>
                     <div class="col-lg-3">
                       <h4>Extra Info About Penthouse</h4>
-                      <p> Experience the pinnacle of luxury in our exclusive penthouse suite. 
-                        Designed with elegance and comfort in mind, this spacious suite offers 
+                      <p> Experience the pinnacle of luxury in our exclusive penthouse suite.
+                        Designed with elegance and comfort in mind, this spacious suite offers
                         breathtaking panoramic views of the city skyline.</p>
                       <div class="icon-button">
                         <a href="property-details.php"><i class="fa fa-calendar"></i> Schedule a visit</a>
@@ -437,14 +468,14 @@
         <div class="col-lg-4 offset-lg-4">
           <div class="section-heading text-center">
             <h6>| Properties</h6>
-            <h2>We Provide The Best Property  You Like</h2>
+            <h2>We Provide The Best Property You Like</h2>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-4 col-md-6">
           <div class="item">
-            <a href="property-details.php"><img src="assets/images/property-01.jpg" alt=""></a>
+            <a href="property-details.php"><img src="assets/images/new apartment2.jpg" alt=""></a>
             <span class="category">Luxury Villa</span>
             <h6>$2.264.000</h6>
             <h4><a href="property-details.php">18 New Street Delta, OR 97219</a></h4>
@@ -480,7 +511,7 @@
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="item">
-            <a href="property-details.php"><img src="assets/images/property-03.jpg" alt=""></a>
+            <a href="property-details.php"><img src="assets/images/villa3.jpg" alt=""></a>
             <span class="category">Luxury Villa</span>
             <h6>$1.460.000</h6>
             <h4><a href="property-details.php">26 Old Street Delta, OR 38540</a></h4>
@@ -498,7 +529,7 @@
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="item">
-            <a href="property-details.php"><img src="assets/images/property-04.jpg" alt=""></a>
+            <a href="property-details.php"><img src="assets/images/penthouse.jpg" alt=""></a>
             <span class="category">Apartment</span>
             <h6>$584.500</h6>
             <h4><a href="property-details.php">12 New Street Delta, OR 12650</a></h4>
@@ -516,7 +547,7 @@
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="item">
-            <a href="property-details.php"><img src="assets/images/property-05.jpg" alt=""></a>
+            <a href="property-details.php"><img src="assets/images/new apartment2.jpg" alt=""></a>
             <span class="category">Penthouse</span>
             <h6>$925.600</h6>
             <h4><a href="property-details.php">34 Beach Street Delta, OR 42680</a></h4>
@@ -534,7 +565,7 @@
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="item">
-            <a href="property-details.php"><img src="assets/images/property-06.jpg" alt=""></a>
+            <a href="property-details.php"><img src="assets/images/new apartment1.jpg" alt=""></a>
             <span class="category">Modern Condo</span>
             <h6>$450.000</h6>
             <h4><a href="property-details.php">22 New Street Delta, OR 16540</a></h4>
@@ -572,7 +603,11 @@
       <div class="row">
         <div class="col-lg-7">
           <div id="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12469.776493332698!2d-80.14036379941481!3d25.907788681148624!2m3!1f357.26927939317244!2f20.870722720054623!3f0!3m2!1i1024!2i768!4f35!3m3!1m2!1s0x88d9add4b4ac788f%3A0xe77469d09480fcdb!2sSunny%20Isles%20Beach!5e1!3m2!1sen!2sth!4v1642869952544!5m2!1sen!2sth" width="100%" height="500px" frameborder="0" style="border:0; border-radius: 10px; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);" allowfullscreen=""></iframe>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12469.776493332698!2d-80.14036379941481!3d25.907788681148624!2m3!1f357.26927939317244!2f20.870722720054623!3f0!3m2!1i1024!2i768!4f35!3m3!1m2!1s0x88d9add4b4ac788f%3A0xe77469d09480fcdb!2sSunny%20Isles%20Beach!5e1!3m2!1sen!2sth!4v1642869952544!5m2!1sen!2sth"
+              width="100%" height="500px" frameborder="0"
+              style="border:0; border-radius: 10px; box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);"
+              allowfullscreen=""></iframe>
           </div>
           <div class="row">
             <div class="col-lg-6">
@@ -601,13 +636,14 @@
               <div class="col-lg-12">
                 <fieldset>
                   <label for="email">Email Address</label>
-                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your E-mail..." required="">
+                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your E-mail..."
+                    required="">
                 </fieldset>
               </div>
               <div class="col-lg-12">
                 <fieldset>
                   <label for="subject">Subject</label>
-                  <input type="subject" name="subject" id="subject" placeholder="Subject..." autocomplete="on" >
+                  <input type="subject" name="subject" id="subject" placeholder="Subject..." autocomplete="on">
                 </fieldset>
               </div>
               <div class="col-lg-12">
@@ -631,9 +667,9 @@
   <footer>
     <div class="container">
       <div class="col-lg-8">
-        <p>2025 Delta Hotel. All rights reserved. 
-        
-      </p>
+        <p>2025 Delta Hotel. All rights reserved.
+
+        </p>
       </div>
     </div>
   </footer>
@@ -647,5 +683,6 @@
   <script src="assets/js/counter.js"></script>
   <script src="assets/js/custom.js"></script>
 
-  </body>
+</body>
+
 </html>

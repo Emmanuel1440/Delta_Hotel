@@ -98,7 +98,17 @@
                       <li><a href="properties.php">Properties</a></li>
                       <li><a href="property-details.php">Property Details</a></li>
                       <li><a href="contact.php" class="active">Contact Us</a></li>
-                      <li><a href="#"><i class="fa fa-calendar"></i> Schedule a visit</a></li>
+                      <li class="nav-item dropdown">
+                      <a href="#" class="nav-link dropdown-toggle" id="scheduleDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="fa fa-calendar"></i> Schedule a visit
+    </a>
+    <ul class="dropdown-menu p-3" aria-labelledby="scheduleDropdown">
+        <li>
+            <label for="visit-date" class="form-label">Select a Date:</label>
+            <input type="date" id="visit-date" class="form-control">
+        </li>
+    </ul>
+</li>
                   </ul>   
                     <a class='menu-trigger'>
                         <span>Menu</span>
@@ -206,7 +216,7 @@
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/isotope.min.js"></script>
   <script src="assets/js/owl-carousel.js"></script>
   <script src="assets/js/counter.js"></script>
