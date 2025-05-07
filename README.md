@@ -1,5 +1,5 @@
 
-# Delhi Hotel Website Project
+# Delta Hotel Website Project
 
 ## Overview
 
@@ -20,7 +20,7 @@ This project is a website for Delhi Hotel, showcasing properties, providing prop
 
 ## Project Description
 
-The Delhi Hotel website aims to provide a user-friendly platform for potential customers to browse available properties, view detailed information about each property, and contact the hotel for reservations or inquiries.  The site is designed to be responsive and visually appealing.
+The Delta Hotel website aims to provide a user-friendly platform for potential customers to browse available properties, view detailed information about each property, and contact the hotel for reservations or inquiries.  The site is designed to be responsive and visually appealing.
 
 ## Features
 
@@ -74,7 +74,7 @@ The Delhi Hotel website aims to provide a user-friendly platform for potential c
 ## File Structure
 
 
-Delhi_Hotel/
+Delta_Hotel/
 ├── assets/ # CSS, JavaScript, Images
 │ ├── css/
 │ │ ├── fontawesome.css
